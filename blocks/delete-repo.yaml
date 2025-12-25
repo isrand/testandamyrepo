@@ -1,0 +1,8 @@
+name: Delete repo
+description: delete test repo
+fullDescription: >
+  N/A
+type: Block
+
+provider: GitHub
+actions: []
