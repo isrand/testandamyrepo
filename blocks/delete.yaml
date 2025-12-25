@@ -1,0 +1,15 @@
+name: Delete
+description: delete
+fullDescription: >
+  N/A
+type: Block
+
+provider: GitHub
+inputs:
+  - name: repository name
+    type: string
+    description: ""
+    key: repositoryName
+
+outputs: []
+actions: []
