@@ -1,0 +1,8 @@
+name: Delete repo
+description: teset
+fullDescription: >
+  N/A
+type: Block
+
+provider: GitHub
+actions: []
