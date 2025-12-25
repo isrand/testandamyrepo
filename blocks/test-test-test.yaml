@@ -1,5 +1,5 @@
-name: Delete repository
-description: Delete a repository, do a foo, get a bit of bar, and lorem ipsum dolor sit amet all the way!
+name: test test test
+description: test
 fullDescription: >
   N/A
 type: Block
@@ -11,7 +11,12 @@ inputs:
     description: ""
     key: repositoryName
 
-outputs: []
+outputs:
+  - name: Repository name
+    type: string
+    description: ""
+    key: repositoryName
+
 actions:
   - type: "github:repo:delete"
     fields:
@@ -23,3 +28,4 @@ actions:
         key: repo
         type: text
         value: repositoryName
+
