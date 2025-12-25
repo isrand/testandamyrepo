@@ -11,10 +11,5 @@ inputs:
     description: ""
     key: repositoryName
 
-outputs:
-  - name: Repository name
-    type: string
-    description: ""
-    key: repositoryName
-
+outputs: []
 actions: []
