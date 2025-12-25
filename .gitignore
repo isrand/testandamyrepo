@@ -1,0 +1,5 @@
+# Andamy local cache
+*.tmp
+*.lock
+.DS_Store
+node_modules/
