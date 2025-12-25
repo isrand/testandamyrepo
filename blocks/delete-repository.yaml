@@ -11,10 +11,16 @@ inputs:
     description: ""
     key: repositoryName
 
-outputs:
-  - name: Repository name
-    type: string
-    description: ""
-    key: repositoryName
+outputs: []
+actions:
+  - type: "github:repo:delete"
+    fields:
+      - name: Owner
+        key: owner
+        type: text
+        value: isrand
+      - name: Repository
+        key: repo
+        type: text
+        value: repositoryName
 
-actions: []
