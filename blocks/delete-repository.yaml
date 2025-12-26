@@ -5,6 +5,9 @@ fullDescription: >
 type: Block
 
 provider: GitHub
+scopes:
+  - github.repository.admin
+
 inputs:
   - name: Repository name
     type: string
