@@ -1,7 +1,7 @@
 name: Delete repository
 description: Delete a repository, do a foo, get a bit of bar, and lorem ipsum dolor sit amet all the way!
 fullDescription: >
-  N/A
+  This block truly does a bit of everything, you just have to know where to look for it. It can foo, it can bar, it can even baz! But really, this block just deletes a repository like it's nobody's business.
 type: Block
 
 provider: GitHub
