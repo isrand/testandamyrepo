@@ -3,6 +3,7 @@ description: test
 fullDescription: >
   N/A
 type: Block
+version: v1.0.0
 
 provider: GitHub
 inputs:

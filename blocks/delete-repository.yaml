@@ -3,6 +3,7 @@ description: Delete a repository, do a foo, get a bit of bar, and lorem ipsum do
 fullDescription: >
   N/A
 type: Block
+version: v1.0.0
 
 provider: GitHub
 inputs:
