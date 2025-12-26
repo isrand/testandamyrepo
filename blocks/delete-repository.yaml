@@ -3,13 +3,12 @@ description: Delete a repository, do a foo, get a bit of bar, and lorem ipsum do
 fullDescription: >
   N/A
 type: Block
-version: v1.0.0
 
 provider: GitHub
 inputs:
   - name: Repository name
     type: string
-    description: ""
+    description: Name of the repository to be deleted
     key: repositoryName
 
 outputs: []
@@ -24,3 +23,4 @@ actions:
         key: repo
         type: text
         value: repositoryName
+
